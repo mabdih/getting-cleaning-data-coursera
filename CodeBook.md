@@ -1,0 +1,97 @@
+# Code Book
+
+This code book is for the `tidy.txt` dataset file contained in this repo, which is itself extracted from [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) after 
+doing a few tranformations which are explained below.
+
+### Variables
+The dataset contains 180 observations and 81 variables. Two variables are identifiers i.e `subjects` and `activity` and 79 
+variables refer to the measurements taken. 
+
+### Data Transformations
+
+The code merged the training and the test sets to create one data set and then measurements on the mean and standard deviation 
+were extracted. Descriptive activity names were assigned to the various activities in the data set and then appropriate & descriptive
+column names were given to all the variables.
+
+### List of Variables
+- subjects
+- activity
+- timeDomainBodyAccelerometerMeanX
+- timeDomainBodyAccelerometerMeanY
+- timeDomainBodyAccelerometerMeanZ
+- timeDomainBodyAccelerometerStandardDeviationX
+- timeDomainBodyAccelerometerStandardDeviationY
+- timeDomainBodyAccelerometerStandardDeviationZ
+- timeDomainGravityAccelerometerMeanX
+- timeDomainGravityAccelerometerMeanY
+- timeDomainGravityAccelerometerMeanZ
+- timeDomainGravityAccelerometerStandardDeviationX
+- timeDomainGravityAccelerometerStandardDeviationY
+- timeDomainGravityAccelerometerStandardDeviationZ
+- timeDomainBodyAccelerometerJerkMeanX
+- timeDomainBodyAccelerometerJerkMeanY
+- timeDomainBodyAccelerometerJerkMeanZ
+- timeDomainBodyAccelerometerJerkStandardDeviationX
+- timeDomainBodyAccelerometerJerkStandardDeviationY
+- timeDomainBodyAccelerometerJerkStandardDeviationZ
+- timeDomainBodyGyroscopeMeanX
+- timeDomainBodyGyroscopeMeanY
+- timeDomainBodyGyroscopeMeanZ
+- timeDomainBodyGyroscopeStandardDeviationX
+- timeDomainBodyGyroscopeStandardDeviationY
+- timeDomainBodyGyroscopeStandardDeviationZ
+- timeDomainBodyGyroscopeJerkMeanX
+- timeDomainBodyGyroscopeJerkMeanY
+- timeDomainBodyGyroscopeJerkMeanZ
+- timeDomainBodyGyroscopeJerkStandardDeviationX
+- timeDomainBodyGyroscopeJerkStandardDeviationY
+- timeDomainBodyGyroscopeJerkStandardDeviationZ
+- timeDomainBodyAccelerometerMagnitudeMean
+- timeDomainBodyAccelerometerMagnitudeStandardDeviation
+- timeDomainGravityAccelerometerMagnitudeMean
+- timeDomainGravityAccelerometerMagnitudeStandardDeviation
+- timeDomainBodyAccelerometerJerkMagnitudeMean
+- timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+- timeDomainBodyGyroscopeMagnitudeMean
+- timeDomainBodyGyroscopeMagnitudeStandardDeviation
+- timeDomainBodyGyroscopeJerkMagnitudeMean
+- timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+- frequencyDomainBodyAccelerometerMeanX
+- frequencyDomainBodyAccelerometerMeanY
+- frequencyDomainBodyAccelerometerMeanZ
+- frequencyDomainBodyAccelerometerStandardDeviationX
+- frequencyDomainBodyAccelerometerStandardDeviationY
+- frequencyDomainBodyAccelerometerStandardDeviationZ
+- frequencyDomainBodyAccelerometerMeanFrequencyX
+- frequencyDomainBodyAccelerometerMeanFrequencyY
+- frequencyDomainBodyAccelerometerMeanFrequencyZ
+- frequencyDomainBodyAccelerometerJerkMeanX
+- frequencyDomainBodyAccelerometerJerkMeanY
+- frequencyDomainBodyAccelerometerJerkMeanZ
+- frequencyDomainBodyAccelerometerJerkStandardDeviationX
+- frequencyDomainBodyAccelerometerJerkStandardDeviationY
+- frequencyDomainBodyAccelerometerJerkStandardDeviationZ
+- frequencyDomainBodyAccelerometerJerkMeanFrequencyX
+- frequencyDomainBodyAccelerometerJerkMeanFrequencyY
+- frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
+- frequencyDomainBodyGyroscopeMeanX
+- frequencyDomainBodyGyroscopeMeanY
+- frequencyDomainBodyGyroscopeMeanZ
+- frequencyDomainBodyGyroscopeStandardDeviationX
+- frequencyDomainBodyGyroscopeStandardDeviationY
+- frequencyDomainBodyGyroscopeStandardDeviationZ
+- frequencyDomainBodyGyroscopeMeanFrequencyX
+- frequencyDomainBodyGyroscopeMeanFrequencyY
+- frequencyDomainBodyGyroscopeMeanFrequencyZ
+- frequencyDomainBodyAccelerometerMagnitudeMean
+- frequencyDomainBodyAccelerometerMagnitudeStandardDeviation
+- frequencyDomainBodyAccelerometerMagnitudeMeanFrequency
+- frequencyDomainBodyBodyAccelerometerJerkMagnitudeMean
+- frequencyDomainBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+- frequencyDomainBodyBodyAccelerometerJerkMagnitudeMeanFrequency
+- frequencyDomainBodyBodyGyroscopeMagnitudeMean
+- frequencyDomainBodyBodyGyroscopeMagnitudeStandardDeviation
+- frequencyDomainBodyBodyGyroscopeMagnitudeMeanFrequency
+- frequencyDomainBodyBodyGyroscopeJerkMagnitudeMean
+- frequencyDomainBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+- frequencyDomainBodyBodyGyroscopeJerkMagnitudeMeanFrequency
